@@ -1,1 +1,3 @@
 For this lab assignment, we worked on writing Python scripts to break weak and exposed passwords. We started by using brute force attacks and later on worked on using files with leaked password, hashes, and salts to figure out the passwords. 
+
+This was a very educational lab and was my first exposure to using Python in the Cybersecurity field. Through this hands-on coding experience, I learned how password hacking works as well as how real-world actors use leaked password files and different hashing algorithms to break passwords. Not only did this give me an insight as to how password hacking, hashing, and salting, but it reminded me of the importance of using strong passwords!
