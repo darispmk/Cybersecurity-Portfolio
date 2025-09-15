@@ -1,0 +1,3 @@
+For lab 2, I had create a Python virus thtat essentially read its own source code and used it to infect other Python scripts in the same directory by inserting a payload and virus code itself. It does this by checking if a file is already infected and targets the scripts that contain a "__main__" section. Tools like Rubber Ducky was also used in this lab.
+
+Through this lab, I was able to gain knowledge about how the different ways viruses can spread throughout a system. This was a unique lab because I have always heard about these viruses and that they spread through replication and by infecting scripts but have never been able to apply that directly. Being able to build the script ground up allowed me to see the basic steps that are taken to create and spread viruses. 
