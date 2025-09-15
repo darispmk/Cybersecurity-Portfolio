@@ -1,3 +1,3 @@
 For this project, I was given the task of looking at the current permissions for a file system. Permissions needed to be verified for correctness as well as modified if not. 
-
+ 
 To complete this task, I was able to use Linux to check the file and directory details, change permissions, and even view the permissions on hidden files. At first, there was a challenge in figuring out which commands to use and navigate the different directories. After some practice though, I was able to learn the commands which were used frequently in various tasks. I look forward to continue practicing with Linux to solidfy the commands and navigate through the directories.
