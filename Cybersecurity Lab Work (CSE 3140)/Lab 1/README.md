@@ -1,1 +1,1 @@
-
+For this lab assignment, we worked on writing Python scripts to break weak and exposed passwords. We started by using brute force attacks and later on worked on using files with leaked password, hashes, and salts to figure out the passwords. 
